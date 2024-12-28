@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Remind Me",
+    "version": "1.0",
+    "description": "A simple chrome extension that reminds you of your tasks",
+    "permissions": ["alarms", "notifications", "storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "magic-line.png"
+    },
+    "background": {
+        "service_worker": "back.js"
+    }
+  }
+  
